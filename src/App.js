@@ -10,7 +10,7 @@ function App() {
       <MCPassRouter />
 
       <div className="footer">
-        <Link to="/"><i className="fas fa-home">Home</i></Link> | <Link to="/contact"><i className="fas fa-envelope">Contact</i></Link> | <Link to="/about">MCPass.PH <i className="far fa-copyright"></i> 2020</Link>
+        <Link to="/"><i className="fas fa-home">Home</i></Link> | <Link to="/contact"><i className="fas fa-envelope">Contact</i></Link> | <Link to="/about">MCPass.PH <i className="far fa-copyright"></i> 2021</Link>
       </div>
 
     </div>

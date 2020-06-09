@@ -1,5 +1,6 @@
 {
   "projects": {
+    "site": "mcpass-dev",
     "default": "mcpass-ph"
   }
 }

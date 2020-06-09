@@ -10,6 +10,7 @@
     "source": "functions"
   },
   "hosting": {
+    "site": "mcpass-dev",
     "public": "build",
     "ignore": [
       "firebase.json",
