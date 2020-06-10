@@ -31,11 +31,12 @@ jobs:
         uses: actions/download-artifact@master
         with:
           name: build
+      - name: issue ls
+        run: npm ls
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting:mcpassph-dev
         env:
           PROJECT_ID: mcpass-ph-cd185
-          PROJECT_PATH: ./build
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
