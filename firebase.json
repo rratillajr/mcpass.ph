@@ -10,7 +10,7 @@
     "source": "functions"
   },
   "hosting": {
-    "site": "mcpass-dev",
+    "site": "mcpassph-dev",
     "public": "build",
     "ignore": [
       "**/.*",

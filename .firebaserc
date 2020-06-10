@@ -1,6 +1,6 @@
 {
   "projects": {
-    "site": "mcpass-dev",
-    "default": "mcpass-ph"
+    "site": "mcpassph-dev",
+    "default": "mcpass-ph-cd185"
   }
 }
