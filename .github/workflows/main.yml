@@ -37,4 +37,5 @@ jobs:
           args: deploy --only hosting:mcpassph-dev
         env:
           PROJECT_ID: mcpass-ph-cd185
+          PROJECT_PATH: ./build
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
